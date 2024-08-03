@@ -1,0 +1,27 @@
+{
+  "name": "patrix_landing_page",
+  "version": "1.0.0",
+  "description": "Patrix Landing Page Using Bootstrap & scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raselranaearshad/patrix.git"
+  },
+  "keywords": [
+    "Bootstrap5",
+    "SCSS"
+  ],
+  "author": "Rasel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raselranaearshad/patrix/issues"
+  },
+  "homepage": "https://github.com/raselranaearshad/patrix#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
