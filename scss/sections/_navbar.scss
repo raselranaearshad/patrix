@@ -1,0 +1,19 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+// Navbar Style
+.menu-bg {
+  @include bgGradient;
+}
+
+.menu {
+  li{
+    padding: 0.7rem;
+
+    a{
+      color: $white !important;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+  }
+}
