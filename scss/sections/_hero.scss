@@ -1,0 +1,26 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.hero_area {
+  @include bgGradient;
+  height: 100%;
+  width: 100%;
+  padding: 10rem 0 0 0;
+}
+
+.intros {
+
+  .video_box {
+    position: relative;
+    a {
+      // @include absoluteCenter;
+      span {
+
+        i{
+          font-size: 6rem;
+          color: $secondary
+        }
+      }
+    }
+  }
+}
