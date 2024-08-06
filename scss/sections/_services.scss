@@ -13,12 +13,12 @@
     }
 
     .icon {
-      font-size: 1rem;
+      font-size: 1.5rem;
       color: $primary;
       display: block;
 
       @include media-breakpoint-up (lg){
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
     }
   }

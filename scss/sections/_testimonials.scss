@@ -5,4 +5,49 @@
   position: relative;
   padding: 0;
   @include bgGradient;
+
+  &__card {
+    background-color: rgba($white, 0.6);
+    padding: 2rem 1.25rem;
+    text-align: center;
+    border-radius: 0.625rem;
+    height: auto;
+
+    i{
+      font-size: 2rem;
+      color: rgba($primary, 0.7);
+    }
+
+    .ratings {
+      padding-bottom: 1rem;
+      i {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__client_pic{
+      width: 6rem;
+      height: 6rem;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    img {
+      border: 0.325rem solid rgba($primary, 0.7);
+    }
+  }
+
+  &__role {
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: $white;
+      h3{
+        padding-top: 0.8rem;
+    }
+    p{
+      font-size: 1rem;
+      padding-bottom: 1.5rem;
+    }
+  }
 }
