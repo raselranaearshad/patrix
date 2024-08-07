@@ -1,0 +1,38 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer{
+  padding-top: 1rem; 
+  background: $footerPrimary;
+}
+
+// Footer Contact Section
+.contact_box {
+  position: relative;
+  &__icon {
+    width: 2.5rem;
+    stroke: $primary;
+    padding-top: 0.5rem;
+    @include media-breakpoint-up (sm) {
+      width: 3.3rem;
+    }
+  }
+  &__info {
+    padding: 0.4rem;
+    &_title{
+      color: $white;
+      font-size: 1rem;
+      text-decoration: none;
+      @include media-breakpoint-up (sm) {
+      font-size: 1.2rem;
+    }
+    }
+    &_subtitle{
+      color: $gray-600;
+      font-size: 0.9rem;
+      @include media-breakpoint-up (sm) {
+      font-size: 1rem;
+    }
+    }
+  }
+}
