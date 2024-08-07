@@ -4,11 +4,14 @@
 .contact_us {
   padding: 4rem 0;
   background: $gray-200;
-  &_info{
+  &_info {
     padding: 3rem;
     margin: 1rem 0;
     h4 {
       font-family: $primaryBodyFont;
+    }
+    h5 {
+      font-size: 2rem !important;
     }
   }
   &_list {

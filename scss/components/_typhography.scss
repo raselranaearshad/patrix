@@ -51,15 +51,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 // Service Header Style
-.services_content {
-
-  .title {
+.title {
     font-size: 1.8rem;
     background-image: linear-gradient(to right, $primary, $secondary);
     background-clip: text;
     display: inline-block;
     -webkit-text-fill-color: transparent;
-  }
 }
 
 // Gradient Background
