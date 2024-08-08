@@ -76,4 +76,18 @@
 // Footer Copyright Area Style 
 .copyright_area {
     background-color: $black;
+}
+
+// Bottom to Top Style
+.bottom-to-top{
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+  i {
+    font-size: 1.2rem;
+    @include absoluteCenter;
   }
+}
