@@ -50,5 +50,25 @@
       font-size: 1.6rem;
       }
     }
+    &:hover {
+      color: $primary
+    }
+  }
+}
+
+// Footer Bottom Content Style
+.company_list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+  li {
+    margin-bottom: 0.5rem;
+    a{
+      color: $white;
+      text-decoration: none;
+      &:hover {
+        color: $secondary;
+      }
+    }
   }
 }
