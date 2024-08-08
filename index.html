@@ -487,15 +487,16 @@
         <!-- Filter Buttons  -->
          <div class="row text-center mt-3 mb-5 g-3">
           <div class="col-md-12">
-            <button type="button" class="btn btn-outline-primary">All</button>
-            <button type="button" class="btn btn-outline-primary">Websites</button>
-            <button type="button" class="btn btn-outline-primary">Design</button>
-            <button type="button" class="btn btn-outline-primary">Mockup</button>
+            <button type="button" class="btn btn-outline-primary" data-filter="all">All</button>
+            <button type="button" class="btn btn-outline-primary" data-filter=".websites">Websites</button>
+            <button type="button" class="btn btn-outline-primary" data-filter=".designs">Design</button>
+            <button type="button" class="btn btn-outline-primary" data-filter=".mockups">Mockup</button>
           </div>
          </div>
          <!-- Portfolio Items  -->
+        <div class="container mixcontainer">
           <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all all mockups" data-order="1">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-1.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -506,7 +507,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all mockups" data-order="2">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-2.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -517,7 +518,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all websites designs" data-order="3">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-3.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -528,7 +529,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all websites" data-order="4">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-4.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -539,7 +540,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all websites" data-order="5">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-5.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -550,7 +551,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all websites designs" data-order="6">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-6.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -561,7 +562,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all designs" data-order="7">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-7.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -572,7 +573,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all" data-order="8">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-8.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -583,7 +584,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mix all mockups" data-order="9">
               <div class="portfolio_box shadow">
                 <img src="assets/images/portfolio/portfolio-9.jpg" alt="" class="img-fluid">
                 <div class="portfolio_info">
@@ -595,6 +596,7 @@
               </div>
             </div>
           </div>
+        </div>
       </div>
      </section>
     <!-- Portfolio Section End  -->
@@ -790,7 +792,10 @@
       </a>
    </main>
 
+   <script src="assets/js/jquery-3.7.1.min.js"></script>
+   <script src="assets/js/mixitup.min.js"></script>
   <script src="https://kit.fontawesome.com/686b7189c6.js" crossorigin="anonymous"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
