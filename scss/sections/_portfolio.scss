@@ -2,7 +2,10 @@
 @use '../components/mixins' as *;
 
 .portfolio {
-  padding: 4rem 0;
+  padding: 2rem 0;
+  @include media-breakpoint-up (sm) {
+      padding: 4rem 0;
+    }
   .portfolio_box {
     position: relative;
     width: 100%;

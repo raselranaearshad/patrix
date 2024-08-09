@@ -1,5 +1,10 @@
+@use '../custom' as *;
+
 .companies {
-  padding: 0 0 5rem 0;
+  padding: 0 0 2.5rem 0;
+  @include media-breakpoint-up (sm) {
+      padding: 0 0 5rem 0;
+  }
 
   &_logo_box{
     max-width: 100%;

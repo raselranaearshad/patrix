@@ -1,3 +1,11 @@
+// VenoBox Plugin Settings 
+new VenoBox({
+  selector: '.open_video',
+  autoplay: true,
+  spinner: 'grid',
+});
+
+
 // MixitUp Plugin Settings
 var mixer = mixitup('.mixcontainer', {
   animation: {

@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+  <!-- VenoBox plugin Css  -->
+   <link rel="stylesheet" href="assets/css/venobox.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -67,7 +69,7 @@
           <div class="col-md-6 intros text-end">
             <div class="video_box">
               <img src="assets/images/arts/intro-section-illustration.png" class="img-fluid" alt="Video Box">
-              <a href="#" class="position-absolute top-50 start-50 translate-middle">
+              <a class="position-absolute top-50 start-50 translate-middle open_video" data-vbtype="video" href="https://www.youtube.com/embed/Z8TNE-ScPAg?si=MxEd6zVSolPCv4GV">
                 <span><i class="fa-solid fa-play-circle"></i></span>
                 <span class="border_animation border_1"></span>
                 <span class="border_animation border_2"></span>
@@ -90,7 +92,7 @@
       <div class="container">
         <div class="row text-center">
           <h4 class="fw-bold mb-3">Trusted by campanies like</h4>
-          <div class="heading_line mb-5"></div>
+          <div class="heading_line mb-3 mb-md-5"></div>
         </div>
       </div>
       <div class="container">
@@ -135,7 +137,7 @@
       <div class="container">
         <div class="row text-center">
           <h1 class="display-3 fw-bold">Our Services</h1>
-          <div class="heading_line mb-5"></div>
+          <div class="heading_line mb-2 mb-md-5"></div>
         </div>
       </div>
       <div class="container">
@@ -146,7 +148,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="bg-white p-4">
+            <div class="bg-white p-2 p-md-4">
               <p class="fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis aperiam, obcaecati provident dolores repellendus nulla pariatur velit aliquid esse dolore.</p>
             </div>
           </div>
@@ -156,7 +158,7 @@
       <!-- Services Content Start -->
        <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 mt-4 services">
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-0 mt-md-4 services">
             <div class="services_content">
               <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
               <h3 class="title fw-bold mt-1">Marketing</h3>
@@ -166,14 +168,14 @@
               </button>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 mt-4 services text-end">
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-0 mt-md-4 services text-end">
             <div class="services_pic">
               <img src="assets/images/services/service-1.png" class="img-fluid" alt="Marketing">
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 mt-4 services text-start">
+        <div class="row flex-column-reverse flex-md-row">
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-0 mt-md-4 services text-start">
             <div class="services_pic">
               <img src="assets/images/services/service-2.png" alt="Web Dev" class="img-fluid">
             </div>
@@ -201,7 +203,7 @@
               </button>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 mt-4 services text-end">
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-0 mt-md-4 services text-end">
             <div class="services_pic">
               <img src="assets/images/services/service-3.png" alt="Cloud Hosting" class="img-fluid">
             </div>
@@ -395,7 +397,7 @@
         <div class="row text-center">
           <h1 class="display-3 fw-bold text-capitalize">faq</h1>
           <div class="heading_line mb-4"></div>
-          <p class="lead">Frequently asked questions, get knowledge befere hand</p>
+          <p class="lh-base">Frequently asked questions, get knowledge befere hand</p>
         </div>
         <!-- Faq accordion  -->
          <div class="row mt-4">
@@ -482,7 +484,7 @@
         <div class="row text-center">
           <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
           <div class="heading_line mb-4"></div>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, magni.</p>
+          <p class="lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, magni.</p>
         </div>
         <!-- Filter Buttons  -->
          <div class="row text-center mt-3 mb-5 g-3">
@@ -607,10 +609,10 @@
         <div class="row text-center">
           <h1 class="display-3 fw-bold text-capitalize">Get Started</h1>
           <div class="heading_line mb-4"></div>
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ducimus!</p>
+          <p class="lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ducimus!</p>
         </div>
         <!-- Contact Us Content  -->
-         <div class="row">
+         <div class="row mt-1 mt-md-4">
           <div class="col-lg-6 col-12 p-3 gradient shadow text-white">
             <div class="contact_us_info w-100">
               <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
@@ -793,6 +795,7 @@
    </main>
 
    <script src="assets/js/jquery-3.7.1.min.js"></script>
+   <script src="assets/js/venobox.min.js"></script>
    <script src="assets/js/mixitup.min.js"></script>
   <script src="https://kit.fontawesome.com/686b7189c6.js" crossorigin="anonymous"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
