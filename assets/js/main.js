@@ -1,10 +1,12 @@
-// VenoBox Plugin Settings 
+// AOS Scroll Animation
+AOS.init();
+
+// VenoBox Plugin Settings
 new VenoBox({
   selector: '.open_video',
   autoplay: true,
   spinner: 'grid',
 });
-
 
 // MixitUp Plugin Settings
 var mixer = mixitup('.mixcontainer', {
